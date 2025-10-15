@@ -3,6 +3,7 @@ name: Hello World
 on:
   push:
     branches: [ "**" ]
+  workflow_dispatch:
 
 jobs:
   run-copilot-cli:

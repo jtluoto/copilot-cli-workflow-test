@@ -25,7 +25,7 @@ jobs:
       run: copilot --version
     
     - name: Run a sample Copilot command
-      run: copilot -p "Tell me about this project"
+      run: copilot -p "Tell me about this project" --allow-all-tools
       env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
 

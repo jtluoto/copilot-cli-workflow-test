@@ -27,5 +27,5 @@ jobs:
     - name: Run a sample Copilot command
       run: copilot -p "Tell me about this project"
       env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 

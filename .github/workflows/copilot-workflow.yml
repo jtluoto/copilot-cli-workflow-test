@@ -1,4 +1,4 @@
-name: Hello World
+name: Copilot CLI Workflow
 
 on:
   push:

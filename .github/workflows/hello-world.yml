@@ -32,4 +32,4 @@ jobs:
       run: npm install -g @github/copilot
       
     - name: Verify installation
-      run: github-copilot-cli --version
+      run: copilot --version
